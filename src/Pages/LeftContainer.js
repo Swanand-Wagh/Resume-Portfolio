@@ -1,7 +1,12 @@
 import React from "react";
+import Profile from "../Components/Left Container/Profile";
 
 function LeftContainer() {
-  return <div></div>;
+  return (
+    <>
+      <Profile />
+    </>
+  );
 }
 
 export default LeftContainer;
