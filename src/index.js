@@ -10,3 +10,11 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
+
+// document.addEventListener( // disable riht-click
+//   "contextmenu",
+//   function (e) {
+//     e.preventDefault();
+//   },
+//   false
+// );
