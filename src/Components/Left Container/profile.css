@@ -1,7 +1,7 @@
 /* Profile */
 
 .profile {
-  padding: 65px 30px 45px;
+  padding: 50px 30px 45px;
   color: white;
   display: grid;
   place-items: center;
@@ -12,18 +12,27 @@
 
 .dp {
   width: 150px;
-  border: 3.75px solid white;
+}
+
+.img-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  width: 160px;
+  background: rgb(230, 230, 230);
+  border-radius: 50% !important;
 }
 
 .profile-links {
-  width: 1.35rem;
+  font-size: 18px;
   margin-right: 1.35rem;
   color: white !important;
 }
 
 .download-btn {
   border-radius: 30px !important;
-  padding: 12px 31.5px !important;
+  padding: 11px 33.5px !important;
   font-size: 15px !important;
   font-weight: 500 !important;
   border: 2px solid white !important;

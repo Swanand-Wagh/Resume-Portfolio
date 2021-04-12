@@ -1,11 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Miriam+Libre&family=Open+Sans&family=Ubuntu&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Ubuntu", sans-serif; */
+  font-family: "Open Sans", sans-serif;
+  /* font-family: "Miriam Libre", sans-serif; */
 }
 
 body {
