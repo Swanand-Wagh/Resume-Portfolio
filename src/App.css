@@ -5,14 +5,22 @@
   height: 100vh;
   display: grid;
   place-items: center;
-  border-radius: 30px;
+  /* border-radius: 30px; */
+  background-color: #2a2a72;
 }
 .app-body {
   display: flex;
   width: 85vw;
-  height: 85vh;
+  height: 80vh;
   box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
   border-radius: 30px;
+  background-color: #444444;
 }
 
-/* LEFT-CONTAINER COMPONENT */
+/* MAIN-CONTAINER COMPONENT */
+.main-container {
+  height: 100%;
+  width: 100%;
+  background-color: #222;
+  border-radius: 30px;
+}
