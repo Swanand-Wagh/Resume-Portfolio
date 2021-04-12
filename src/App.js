@@ -6,9 +6,11 @@ import MainContainer from "./Pages/MainContainer";
 function App() {
   return (
     <>
-      <div className="App">
-        <LeftContainer />
-        <MainContainer />
+      <div className="app">
+        <div className="app-body">
+          <LeftContainer />
+          <MainContainer />
+        </div>
       </div>
     </>
   );

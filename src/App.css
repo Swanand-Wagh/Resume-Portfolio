@@ -1,0 +1,18 @@
+/* APP COMPONENT */
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  border-radius: 30px;
+}
+.app-body {
+  display: flex;
+  width: 85vw;
+  height: 85vh;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+}
+
+/* LEFT-CONTAINER COMPONENT */
