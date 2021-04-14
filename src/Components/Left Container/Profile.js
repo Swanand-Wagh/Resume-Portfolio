@@ -1,6 +1,7 @@
 import React from "react";
-import { Button, Image } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import "./profile.css";
+import My_Profile from "../../Profile.pdf";
 
 function Profile() {
   return (
@@ -43,9 +44,13 @@ function Profile() {
             </a>
           </div>
         </div>
-        <Button className="download-btn" variant="outline-light">
+        <a
+          className="download-btn"
+          href={My_Profile}
+          download="Swanand_resume.pdf"
+        >
           Download CV
-        </Button>
+        </a>
         <p className="made-by text-center">
           Designed by Alias
           <br />

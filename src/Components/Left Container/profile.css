@@ -37,11 +37,15 @@
   font-weight: 500 !important;
   border: 2px solid white !important;
   box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+  text-decoration: none !important;
+  color: white;
+  font-weight: 500 !important;
 }
 
 .download-btn:hover {
-  color: #ff4e00 !important;
-  font-weight: 500 !important;
+  background-color: #fff;
+  color: #222 !important;
+  font-weight: 600 !important;
 }
 
 .made-by {
