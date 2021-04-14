@@ -3,7 +3,10 @@ import React from "react";
 function Home() {
   return (
     <>
-      <div style={{ display: "grid", placeItems: "center", height: "100%" }}>
+      <div
+        id="HOME"
+        style={{ display: "grid", placeItems: "center", height: "100%" }}
+      >
         <div className="text-center">
           <p
             style={{
