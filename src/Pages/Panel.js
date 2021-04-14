@@ -1,4 +1,5 @@
 import React from "react";
+import { Button, OverlayTrigger, Tooltip } from "react-bootstrap";
 import "../App.css";
 
 function Panel() {
@@ -15,29 +16,69 @@ function Panel() {
         <div className="panel-1 mt-1">
           <ul>
             <li>
-              <a href="#HOME">
-                <i class="fas fa-home panel-icons"></i>
-              </a>
+              {["left"].map((placement) => (
+                <OverlayTrigger
+                  key={placement}
+                  placement={placement}
+                  overlay={<Tooltip className="tt" id={`tooltip-${placement}`}>Home</Tooltip>}
+                >
+                  <a href="#HOME">
+                    <i class="fas fa-home panel-icons"></i>
+                  </a>
+                </OverlayTrigger>
+              ))}
             </li>
             <li>
-              <a href="#ABOUT">
-                <i class="fas fa-user panel-icons"></i>
-              </a>
+              {["left"].map((placement) => (
+                <OverlayTrigger
+                  key={placement}
+                  placement={placement}
+                  overlay={<Tooltip id={`tooltip-${placement}`}>About Me</Tooltip>}
+                >
+                  <a href="#ABOUT">
+                    <i class="fas fa-user panel-icons"></i>
+                  </a>
+                </OverlayTrigger>
+              ))}
             </li>
             <li>
-              <a href="#RESUME">
-                <i class="fas fa-graduation-cap panel-icons"></i>
-              </a>
+              {["left"].map((placement) => (
+                <OverlayTrigger
+                  key={placement}
+                  placement={placement}
+                  overlay={<Tooltip id={`tooltip-${placement}`}>Resume</Tooltip>}
+                >
+                  <a href="#RESUME">
+                    <i class="fas fa-graduation-cap panel-icons"></i>
+                  </a>
+                </OverlayTrigger>
+              ))}
             </li>
             <li>
-              <a href="#PORTFOLIO">
-                <is class="fas fa-briefcase panel-icons"></is>
-              </a>
+              {["left"].map((placement) => (
+                <OverlayTrigger
+                  key={placement}
+                  placement={placement}
+                  overlay={<Tooltip id={`tooltip-${placement}`}>Portfolio</Tooltip>}
+                >
+                  <a href="#PORTFOLIO">
+                    <is class="fas fa-briefcase panel-icons"></is>
+                  </a>
+                </OverlayTrigger>
+              ))}
             </li>
             <li>
-              <a href="#CONTACT">
-                <i class="fas fa-envelope panel-icons"></i>
-              </a>
+              {["left"].map((placement) => (
+                <OverlayTrigger
+                  key={placement}
+                  placement={placement}
+                  overlay={<Tooltip id={`tooltip-${placement}`}>Contact</Tooltip>}
+                >
+                  <a href="#CONTACT">
+                    <i class="fas fa-envelope panel-icons"></i>
+                  </a>
+                </OverlayTrigger>
+              ))}
             </li>
           </ul>
         </div>
