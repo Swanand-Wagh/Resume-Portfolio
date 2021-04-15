@@ -9,7 +9,7 @@ function Myself() {
         About <span>Me</span>
       </p>
       <Row>
-        <Col md={7}>
+        <Col md={6} className="pr-0">
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta,
             reprehenderit unde cupiditate quas distinctio modi officia ex, nisi
@@ -19,8 +19,9 @@ function Myself() {
             nemo quis. Lorem ipsum dolor sit amet.
           </p>
         </Col>
+        <Col md={1} className="px-0" />
         <Col md={5}>
-          <div className="abt-details ml-4">
+          <div className="abt-details pl-0">
             <ul>
               <li>
                 <span>Age</span> 19

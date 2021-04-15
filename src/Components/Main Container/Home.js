@@ -14,11 +14,19 @@ function Home() {
               fontSize: "60px",
               fontWeight: "600",
               margin: "0",
+              paddingLeft: "30px",
             }}
           >
             Swanand Wagh
           </p>
-          <p style={{ color: "orange", fontSize: "21px", margin: "5px 0px" }}>
+          <p
+            style={{
+              color: "orange",
+              fontSize: "21px",
+              margin: "5px 0px",
+              paddingLeft: "30px",
+            }}
+          >
             React Developer & Game Developer
           </p>
         </div>

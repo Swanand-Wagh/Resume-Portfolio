@@ -19,7 +19,7 @@ function WhatIDo() {
             in magni fugit.
           </p>
         </Col>
-        <Col md={6}>
+        <Col md={6} className="pl-5">
           <i class="fas fa-gamepad abt-icons"></i>
           <p className="what-i-do-title">Game Development</p>
           <p>
@@ -39,7 +39,7 @@ function WhatIDo() {
             in magni fugit.
           </p>
         </Col>
-        <Col md={6} className="mt-3">
+        <Col md={6} className="mt-3 pl-5">
           <i class="fas fa-hands-helping abt-icons"></i>
           <p className="what-i-do-title">Volunteering</p>
           <p>

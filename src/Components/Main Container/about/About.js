@@ -8,7 +8,7 @@ import "./about.css";
 function About() {
   return (
     <>
-      <div className="about">
+      <div id="ABOUT" className="about">
         <Myself />
         <WhatIDo />
         <Testimonial />

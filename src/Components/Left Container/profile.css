@@ -51,8 +51,8 @@
 }
 
 .download-btn:hover {
-  background-color: white;
-  color: orange !important;
+  background-color: orange;
+  color: black !important;
   font-weight: 600 !important;
 }
 

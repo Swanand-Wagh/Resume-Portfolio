@@ -6,7 +6,7 @@ import About from "../Components/Main Container/about/About";
 function MainContainer() {
   return (
     <>
-      <div className="main-container">
+      <div className="main-container pl-2">
         <Home />
         <About />
       </div>

@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Miriam+Libre&family=Open+Sans&family=Ubuntu&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +26,22 @@ code {
 }
 
 /* hide the scroll-bar */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
+} */
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-thumb {
+  width: 26px;
+  border-radius: 13px;
+  background-clip: padding-box;
+  border: 10px solid transparent;
+}
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 0 10px;
+  color: orange;
+}
+::-webkit-scrollbar-track {
+  margin: 22.5px 0;
+  background: transparent;
 }
