@@ -23,17 +23,18 @@
   background: rgb(230, 230, 230);
   border-radius: 50% !important;
 }
-/* .img-border:hover {
-  background: #444;
-} */
+.img-border:hover {
+  background: orange;
+}
 
 .profile-links {
   font-size: 19px;
   margin-right: 1.35rem;
   color: rgb(220, 220, 220) !important;
 }
+
 .profile-links:hover {
-  color: white !important;
+  color: orange !important;
 }
 
 .download-btn {
@@ -49,8 +50,8 @@
 }
 
 .download-btn:hover {
-  background-color: #fff;
-  color: #222 !important;
+  background-color: orange;
+  color: white !important;
   font-weight: 600 !important;
 }
 

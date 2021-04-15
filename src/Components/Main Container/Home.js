@@ -18,7 +18,7 @@ function Home() {
           >
             Swanand Wagh
           </p>
-          <p style={{ color: "#8888", fontSize: "21px", margin: "5px 0px" }}>
+          <p style={{ color: "orange", fontSize: "21px", margin: "5px 0px" }}>
             React Developer & Game Developer
           </p>
         </div>

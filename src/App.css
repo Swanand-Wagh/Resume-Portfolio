@@ -61,12 +61,12 @@
 }
 
 .panel-icons:hover {
-  color: white !important;
+  color: orange !important;
 }
 
 #tooltip-left > .tooltip-inner {
-  background-color: #fff;
-  color: #000;
+  background-color: orange;
+  color: #fff;
   padding: 5px 10px;
   font-size: 16px;
   font-weight: 500;
