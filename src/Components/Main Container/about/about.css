@@ -1,0 +1,30 @@
+.about-me {
+  padding: 60px;
+  color: #d5d5d5;
+}
+.about-me .title {
+  color: #eeeeee;
+  font-size: 32px;
+  font-weight: 600;
+}
+.title span {
+  color: orange;
+}
+.abt-details span {
+  color: orange;
+  margin-right: 0.5rem;
+}
+.abt-details > ul li {
+  list-style-type: none !important;
+  margin-bottom: 0.32rem;
+  letter-spacing: 0.15px;
+}
+
+.what-i-do {
+  color: #eeeeee;
+  font-size: 21px;
+  font-weight: 600;
+}
+.what-i-do > span {
+  color: orange;
+}
