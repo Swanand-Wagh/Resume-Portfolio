@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, OverlayTrigger, Tooltip } from "react-bootstrap";
+import { OverlayTrigger, Tooltip } from "react-bootstrap";
 import "../App.css";
 
 function Panel() {
@@ -20,7 +20,11 @@ function Panel() {
                 <OverlayTrigger
                   key={placement}
                   placement={placement}
-                  overlay={<Tooltip className="tt" id={`tooltip-${placement}`}>Home</Tooltip>}
+                  overlay={
+                    <Tooltip className="tt" id={`tooltip-${placement}`}>
+                      Home
+                    </Tooltip>
+                  }
                 >
                   <a href="#HOME">
                     <i class="fas fa-home panel-icons"></i>
@@ -33,7 +37,9 @@ function Panel() {
                 <OverlayTrigger
                   key={placement}
                   placement={placement}
-                  overlay={<Tooltip id={`tooltip-${placement}`}>About Me</Tooltip>}
+                  overlay={
+                    <Tooltip id={`tooltip-${placement}`}>About Me</Tooltip>
+                  }
                 >
                   <a href="#ABOUT">
                     <i class="fas fa-user panel-icons"></i>
@@ -46,7 +52,9 @@ function Panel() {
                 <OverlayTrigger
                   key={placement}
                   placement={placement}
-                  overlay={<Tooltip id={`tooltip-${placement}`}>Resume</Tooltip>}
+                  overlay={
+                    <Tooltip id={`tooltip-${placement}`}>Resume</Tooltip>
+                  }
                 >
                   <a href="#RESUME">
                     <i class="fas fa-graduation-cap panel-icons"></i>
@@ -59,7 +67,9 @@ function Panel() {
                 <OverlayTrigger
                   key={placement}
                   placement={placement}
-                  overlay={<Tooltip id={`tooltip-${placement}`}>Portfolio</Tooltip>}
+                  overlay={
+                    <Tooltip id={`tooltip-${placement}`}>Portfolio</Tooltip>
+                  }
                 >
                   <a href="#PORTFOLIO">
                     <is class="fas fa-briefcase panel-icons"></is>
@@ -72,7 +82,9 @@ function Panel() {
                 <OverlayTrigger
                   key={placement}
                   placement={placement}
-                  overlay={<Tooltip id={`tooltip-${placement}`}>Contact</Tooltip>}
+                  overlay={
+                    <Tooltip id={`tooltip-${placement}`}>Contact</Tooltip>
+                  }
                 >
                   <a href="#CONTACT">
                     <i class="fas fa-envelope panel-icons"></i>

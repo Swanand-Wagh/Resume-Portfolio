@@ -23,10 +23,16 @@
   background: rgb(230, 230, 230);
   border-radius: 50% !important;
 }
+/* .img-border:hover {
+  background: #444;
+} */
 
 .profile-links {
-  font-size: 18px;
+  font-size: 19px;
   margin-right: 1.35rem;
+  color: rgb(220, 220, 220) !important;
+}
+.profile-links:hover {
   color: white !important;
 }
 
@@ -54,4 +60,5 @@
   font-weight: 500;
   position: relative;
   top: 55px;
+  letter-spacing: 0.6px;
 }
