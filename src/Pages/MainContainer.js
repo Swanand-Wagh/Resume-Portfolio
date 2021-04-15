@@ -7,7 +7,7 @@ function MainContainer() {
   return (
     <>
       <div className="main-container">
-        {/* <Home /> */}
+        <Home />
         <About />
       </div>
     </>

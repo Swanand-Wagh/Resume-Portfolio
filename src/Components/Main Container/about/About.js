@@ -1,17 +1,21 @@
 import React from "react";
 import Myself from "./Myself";
 import WhatIDo from "./WhatIDo";
+import Testimonial from "./Testimonial";
+import FunFacts from "./FunFacts";
 import "./about.css";
 
-function AboutMe() {
+function About() {
   return (
     <>
-      <div className="about-me">
+      <div className="about">
         <Myself />
         <WhatIDo />
+        <Testimonial />
+        <FunFacts />
       </div>
     </>
   );
 }
 
-export default AboutMe;
+export default About;
