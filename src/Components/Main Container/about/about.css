@@ -45,7 +45,7 @@
 /* FUN FACTS */
 .fact {
   background-color: #444;
-  padding: 2rem 0 1rem;
+  padding: 1.5rem 0 0.75rem;
   border-radius: 10px;
   box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
 }
