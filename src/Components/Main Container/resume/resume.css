@@ -12,6 +12,17 @@
   border-left: 0.5px solid orange;
   height: 9.75rem;
 }
+.divider::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 7.5px;
+  background-color: orange;
+  position: relative;
+  left: -6px;
+}
+
 .edu-title,
 .exp-title {
   font-size: 13px;
