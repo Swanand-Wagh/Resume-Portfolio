@@ -1,0 +1,28 @@
+.resume {
+  padding: 60px 60px 45px;
+  color: #d5d5d5;
+}
+.resume .title {
+  color: #eeeeee;
+  font-size: 32px;
+  font-weight: 600;
+}
+/* EDUCATION */
+.divider {
+  border-left: 0.5px solid orange;
+  height: 9.75rem;
+}
+.edu-title,
+.exp-title {
+  font-size: 13px;
+  color: #aaa;
+}
+.left-of-line {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.edu-text,
+.exp-text {
+  font-size: 15.5px;
+}
