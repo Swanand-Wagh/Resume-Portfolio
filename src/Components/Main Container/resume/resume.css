@@ -52,3 +52,23 @@
   display: flex;
   justify-content: space-between;
 }
+
+/* OTHERS */
+.others {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 10px; */
+}
+.others-card {
+  margin: 0.25rem;
+  /* background-color: orange; */
+  background-color: #333;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+  color: whitesmoke;
+  font-weight: 500;
+  font-size: 15px;
+  width: fit-content;
+  padding: 4.5px 7.5px;
+  border-radius: 5px 9px;
+  border: 1px dashed orange;
+}
