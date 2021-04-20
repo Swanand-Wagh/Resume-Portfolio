@@ -41,6 +41,7 @@
 /* SKILLS */
 .progress {
   margin-bottom: 0.8rem;
+  background-color: #eee !important;
   height: 8.75px !important;
 }
 .progress-title {
@@ -68,7 +69,27 @@
   font-weight: 500;
   font-size: 15px;
   width: fit-content;
-  padding: 4.5px 7.5px;
-  border-radius: 5px 9px;
+  padding: 4.25px 8px;
+  border-radius: 6px 10px;
   border: 1px dashed orange;
+}
+
+/* CERTIFICATE */
+.certificate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.certificate-card,
+.certificate-card:hover {
+  text-decoration: none !important;
+  color: whitesmoke;
+  margin: 0rem 1rem 1rem 0rem;
+  background-color: #333;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+  padding: 0.55rem 1.25rem;
+  border-radius: 8px;
+}
+.certificate-card > p {
+  margin-bottom: 7px;
 }

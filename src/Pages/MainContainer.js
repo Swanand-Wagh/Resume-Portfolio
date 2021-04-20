@@ -8,8 +8,8 @@ function MainContainer() {
   return (
     <>
       <div className="main-container pl-2">
-        {/* <Home />
-        <About /> */}
+        <Home />
+        <About />
         <Resume />
       </div>
     </>
