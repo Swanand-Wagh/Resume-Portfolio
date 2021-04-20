@@ -3,13 +3,14 @@ import { Col, Row } from "react-bootstrap";
 import Education from "./Education";
 import Skills from "./Skills";
 import Experience from "./Experience";
-
+import Others from "./Others";
 import "./resume.css";
+import Certificate from "./Certificate";
 
 function Resume() {
   return (
     <>
-      <div className="resume">
+      <div id="RESUME" className="resume">
         <p className="title">
           Resu<span>me</span>
         </p>
@@ -23,8 +24,11 @@ function Resume() {
           <Col md={7}>
             <Experience />
           </Col>
-          <Col md={5}></Col>
+          <Col md={5}>
+            <Others />
+          </Col>
         </Row>
+        <Certificate />
       </div>
     </>
   );

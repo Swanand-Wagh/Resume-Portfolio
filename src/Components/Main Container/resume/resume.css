@@ -20,7 +20,7 @@
   border-radius: 7.5px;
   background-color: orange;
   position: relative;
-  left: -6px;
+  left: -7px;
 }
 
 .edu-title,
@@ -36,4 +36,19 @@
 .edu-text,
 .exp-text {
   font-size: 15.5px;
+}
+
+/* SKILLS */
+.progress {
+  margin-bottom: 0.8rem;
+  height: 8.75px !important;
+}
+.progress-title {
+  font-size: 14px;
+  padding: 0 1px;
+  margin-bottom: 6px;
+  color: whitesmoke;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
 }
