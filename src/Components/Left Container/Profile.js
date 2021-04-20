@@ -26,20 +26,32 @@ function Profile() {
           >
             Alias
           </p>
-          <p
+          {/* <p
             style={{ margin: "0px 0px 5px 0px", fontSize: "18px" }}
             className="text-center"
           >
             Web Designer
-          </p>
-          <div style={{ margin: "18.5px 0px" }} className="text-center ml-4">
-            <a href="https://www.linkedin.com/in/swanandwagh1208/">
+          </p> */}
+          <div style={{ margin: "9px 0px" }} className="text-center ml-4">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/swanandwagh1208/"
+            >
               <i class="fab fa-linkedin-in profile-links"></i>
             </a>
-            <a href="https://github.com/Swanand-Wagh">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/Swanand-Wagh"
+            >
               <i class="fab fa-github profile-links"></i>
             </a>
-            <a href="https://www.instagram.com/swanandaaaa/">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.instagram.com/swanandaaaa/"
+            >
               <i class="fab fa-instagram profile-links"></i>
             </a>
           </div>
