@@ -42,7 +42,7 @@ function Skills() {
           <div style={{ width: "80%", backgroundColor: "orange" }}></div>
         </div>
         <div className="progress-title">
-          <span>C# & Unity</span>
+          <span>C# Unity</span>
           <span>20%</span>
         </div>
         <div className="progress">

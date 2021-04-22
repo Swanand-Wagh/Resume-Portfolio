@@ -14,21 +14,18 @@ function FunFacts() {
             <div className="fact text-center">
               <i class="fas fa-paper-plane abt-icons"></i>
               <p className="what-i-do-title">Origami Artist</p>
-              <span></span>
             </div>
           </Col>
           <Col>
             <div className="fact text-center">
               <i class="fas fa-pizza-slice abt-icons"></i>
               <p className="what-i-do-title">Foodie</p>
-              <span></span>
             </div>
           </Col>
           <Col>
             <div className="fact text-center">
               <i class="fas fa-skating abt-icons"></i>
               <p className="what-i-do-title">Sports Enthusiast</p>
-              <span></span>
             </div>
           </Col>
         </Row>

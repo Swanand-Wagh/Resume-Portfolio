@@ -2,6 +2,8 @@ import React from "react";
 import Home from "../Components/Main Container/Home";
 import About from "../Components/Main Container/about/About";
 import Resume from "../Components/Main Container/resume/Resume";
+import Portfolio from "../Components/Main Container/Portfolio";
+import Contact from "../Components/Main Container/contact/Contact";
 import "../App.css";
 
 function MainContainer() {
@@ -11,6 +13,8 @@ function MainContainer() {
         <Home />
         <About />
         <Resume />
+        <Portfolio />
+        <Contact />
       </div>
     </>
   );

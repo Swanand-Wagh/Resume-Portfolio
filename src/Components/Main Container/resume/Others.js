@@ -17,11 +17,11 @@ function Others() {
           <div className="others-card">Data Structures</div>
           <div className="others-card">Problem Solving</div>
           <div className="others-card">Time Management</div>
+          <div className="others-card">Flexibility</div>
+          <div className="others-card">Communication</div>
           <div className="others-card">Teaching</div>
           <div className="others-card">Entrepreneurship</div>
           <div className="others-card">Team Work</div>
-          <div className="others-card">Communication</div>
-          <div className="others-card">Flexibility</div>
         </div>
       </div>
     </>
