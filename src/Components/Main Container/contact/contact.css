@@ -7,10 +7,6 @@
   font-size: 32px;
   font-weight: 600;
 }
-.inputs {
-  /* display: flex;
-  justify-content: space-between; */
-}
 input {
   padding: 8.5px 12.5px;
   border-radius: 12px;
