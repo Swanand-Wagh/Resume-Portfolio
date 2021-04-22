@@ -6,7 +6,7 @@ function Myself() {
   return (
     <>
       <p className="title mb-5">
-        Highly creative and enthusiastic, <span>Web Developer</span> <br /> and
+        Highly innovative and enthusiastic, <span>Web Developer</span> <br /> and
         <span> Game Developer</span>.
       </p>
       <Row>

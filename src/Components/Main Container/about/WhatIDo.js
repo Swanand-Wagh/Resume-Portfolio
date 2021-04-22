@@ -5,7 +5,7 @@ import "./about.css";
 function WhatIDo() {
   return (
     <>
-      <p className="pt-4 pb-2 what-i-do">
+      <p className="pt-4 pb-3 what-i-do">
         What I Bring <span>to the Table</span>.
       </p>
       <Row>
