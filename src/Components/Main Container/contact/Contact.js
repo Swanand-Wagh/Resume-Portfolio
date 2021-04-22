@@ -38,18 +38,13 @@ function Contact() {
             </p>
             <form
               method="post"
-              name="Contact me"
+              name="contact"
               onSubmit="submit"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
               className="form"
             >
-              <input
-                type="hidden"
-                name="form-name"
-                value="Contact me"
-                required
-              />
+              <input type="hidden" name="form-name" value="contact" />
               <div hidden>
                 <input name="bot-field" />
               </div>
