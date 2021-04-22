@@ -5,7 +5,7 @@ function Others() {
   return (
     <>
       <div className="pl-5">
-        <p className="pt-4 pb-2 what-i-do">Others</p>
+        <p className="pt-4 pb-2 what-i-do">Knowledge</p>
         <div className="others">
           <div className="others-card">Bootstrap</div>
           <div className="others-card">Objective C</div>

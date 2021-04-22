@@ -9,7 +9,7 @@
 }
 input {
   padding: 8.5px 12.5px;
-  border-radius: 12px;
+  border-radius: 8px;
   border: 1.25px solid orange;
   background-color: #222;
   color: white;
@@ -19,16 +19,16 @@ input[type="email"] {
 }
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: white;
+  color: #C0C0C0;
   opacity: 1; /* Firefox */
 }
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: white;
+  color: #C0C0C0;
 }
 ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: white;
+  color: #C0C0C0;
 }
 textarea {
   border-radius: 7px;
@@ -36,4 +36,5 @@ textarea {
   border: 1.25px solid orange;
   background-color: #222;
   color: white;
+  resize: none !important;
 }

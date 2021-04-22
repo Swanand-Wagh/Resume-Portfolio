@@ -5,7 +5,7 @@ function Skills() {
   return (
     <>
       <div className="skills pl-5">
-        <p className="pt-4 pb-2 what-i-do">Skills</p>
+        <p className="pt-4 pb-2 what-i-do">My Expertise</p>
         <div className="progress-title">
           <span>Html</span>
           <span>90%</span>

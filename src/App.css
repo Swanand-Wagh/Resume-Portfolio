@@ -67,6 +67,9 @@
 .panel-icons:hover {
   color: orange !important;
 }
+.tt > a:active {
+  color: orange !important;
+}
 
 #tooltip-left > .tooltip-inner {
   background-color: orange;

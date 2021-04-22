@@ -72,7 +72,7 @@ function Panel() {
                   }
                 >
                   <a href="#PORTFOLIO">
-                    <is class="fas fa-briefcase panel-icons"></is>
+                    <i class="fas fa-briefcase panel-icons"></i>
                   </a>
                 </OverlayTrigger>
               ))}

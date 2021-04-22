@@ -6,7 +6,7 @@ function WhatIDo() {
   return (
     <>
       <p className="pt-4 pb-2 what-i-do">
-        What <span>I DO</span>
+        What I Bring <span>to the Table</span>.
       </p>
       <Row>
         <Col md={6}>

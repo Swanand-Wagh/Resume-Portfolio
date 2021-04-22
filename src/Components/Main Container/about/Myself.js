@@ -5,8 +5,9 @@ import "./about.css";
 function Myself() {
   return (
     <>
-      <p className="title">
-        About <span>Me</span>
+      <p className="title mb-5">
+        Highly creative and enthusiastic, <span>Web Developer</span> <br /> and
+        <span> Game Developer</span>.
       </p>
       <Row>
         <Col md={6} className="pr-0">
@@ -27,9 +28,6 @@ function Myself() {
                 <span>Age</span> 19
               </li>
               <li>
-                <span>Birthday</span> 12th August 2001
-              </li>
-              <li>
                 <span>City</span> Pune, Maharashtra
               </li>
               <li>
@@ -39,7 +37,7 @@ function Myself() {
                 <span>E-mail</span> swanandwagh7@gmail.com
               </li>
               <li>
-                <span>Phone</span> +91 1234567890
+                <span>Phone</span> +91 70307XXXXX
               </li>
             </ul>
           </div>
