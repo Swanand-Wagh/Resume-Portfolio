@@ -12,6 +12,9 @@
   border-left: 0.5px solid orange;
   height: 9.75rem;
 }
+.divider-col {
+  padding-left: 1.25rem !important;
+}
 .divider::before {
   content: "";
   display: inline-block;
@@ -39,6 +42,9 @@
 }
 
 /* SKILLS */
+.skills {
+  padding-left: 48px;
+}
 .progress {
   margin-bottom: 0.8rem;
   background-color: #eee !important;
@@ -92,4 +98,55 @@
 }
 .certificate-card > p {
   margin-bottom: 7px;
+}
+.issue-date {
+  font-size: 15.75px;
+  color: darkgray;
+}
+.cred-id {
+  font-size: 13px;
+  color: gray;
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px) {
+  .others-card {
+    margin: 0.27rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .resume {
+    padding: 60px 45px;
+  }
+  .date {
+    font-size: 15px !important;
+  }
+  .exp-text {
+    font-size: 14px !important;
+  }
+  .divider::before {
+    height: 10px;
+    width: 10px;
+    left: -5.5px;
+  }
+  .divider-col {
+    padding-left: 1rem !important;
+  }
+  .skills {
+    padding-left: 30px;
+  }
+  .others-card {
+    font-size: 14px !important;
+    margin: 0.2rem;
+    padding: 3.85px 6.75px;
+  }
+  .certificate {
+    justify-content: flex-start;
+  }
+  .certificate-card {
+    padding: 0.75rem 1rem;
+    width: 305px !important;
+  }
+  .issue-date {
+    font-size: 14.75px;
+  }
 }

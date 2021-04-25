@@ -65,3 +65,10 @@
   top: 55px;
   letter-spacing: 0.2px;
 }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px) {
+  .profile {
+    display: none;
+  }
+}

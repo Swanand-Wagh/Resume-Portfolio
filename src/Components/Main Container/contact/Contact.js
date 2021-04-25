@@ -6,7 +6,7 @@ function Contact() {
   return (
     <>
       <div id="CONTACT" className="contact">
-        <p className="title mb-4">
+        <p className="title mb-5">
           Get In <span>Touch</span>
         </p>
 
@@ -15,8 +15,7 @@ function Contact() {
             <div className="fact text-center mb-4">
               <i class="fas fa-map-marker-alt abt-icons "></i>
               <p
-                style={{ fontSize: "15px", fontWeight: "600" }}
-                className="pt-1 what-i-do-title"
+                className="pt-1 contact-title"
               >
                 Pune, Maharashtra
               </p>
@@ -24,8 +23,7 @@ function Contact() {
             <div className="fact text-center mb-4">
               <i class="fas fa-phone-alt abt-icons "></i>
               <p
-                style={{ fontSize: "15px", fontWeight: "600" }}
-                className="pt-1 what-i-do-title"
+                className="pt-1 contact-title"
               >
                 +91 70307XXXXX
               </p>
@@ -33,8 +31,7 @@ function Contact() {
             <div className="fact text-center ">
               <i class="fas fa-inbox abt-icons "></i>
               <p
-                style={{ fontSize: "15px", fontWeight: "600" }}
-                className="pt-1 what-i-do-title"
+                className="pt-1 contact-title"
               >
                 swanandwagh7@gmail.com
               </p>
@@ -58,34 +55,26 @@ function Contact() {
                 <input name="bot-field" />
               </div>
               <div className="inputs">
-                <label className="mr-3 mb-3">
-                  <input
-                    type="text"
-                    placeholder="Your Name"
-                    name="Name"
-                    required
-                  />
-                </label>
-                <label>
-                  <input type="text" placeholder="Subject" name="Subject" />
-                </label>
-                <label>
-                  <input type="email" placeholder="Your Email" name="Email" />
-                </label>
+                <input
+                  className="mr-3"
+                  type="text"
+                  placeholder="Your Name"
+                  name="Name"
+                  required
+                />
+                <input type="text" placeholder="Subject" name="Subject" />
               </div>
+              <input type="email" placeholder="Your Email" name="Email" />
 
               <br />
-              <label>
-                <textarea
-                  name="Message"
-                  id="Message"
-                  cols="49"
-                  rows="5"
-                  placeholder="Your Message"
-                ></textarea>
-              </label>
+              <textarea
+                name="Message"
+                id="Message"
+                rows="5"
+                placeholder="Your Message"
+              ></textarea>
               <br />
-              <button type="submit" className="download-btn mt-2">
+              <button type="submit" className="download-btn mt-3 send">
                 Send Message
               </button>
             </form>

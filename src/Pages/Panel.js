@@ -6,6 +6,7 @@ function Panel() {
   return (
     <>
       <div
+        className="main-panel"
         style={{
           display: "flex",
           flexDirection: "column",

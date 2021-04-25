@@ -18,7 +18,7 @@
 }
 .abt-details > ul li {
   list-style-type: none !important;
-  margin-bottom: 0.32rem;
+  margin-bottom: 0.85rem;
   letter-spacing: 0.15px;
 }
 
@@ -41,6 +41,9 @@
   font-weight: 900;
   color: white;
 }
+.ryt-col {
+  padding-left: 40px !important;
+}
 
 /* FUN FACTS */
 .fact {
@@ -48,4 +51,44 @@
   padding: 1.5rem 0 0.75rem;
   border-radius: 10px;
   box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1024px) {
+  .abt-details ul li {
+    margin-bottom: 0.75rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about {
+    padding: 60px 45px;
+  }
+  .title {
+    font-size: 26px !important;
+  }
+  .intro {
+    font-size: 15px !important;
+  }
+  .abt-details {
+    font-size: 15px !important;
+  }
+  .abt-details ul li {
+    margin-bottom: 0.85rem;
+  }
+  .col-md-5 {
+    padding-left: 0px !important;
+  }
+  .what-i-do-title {
+    font-size: 16.35px !important;
+  }
+  .what-i-do-text {
+    font-size: 15px !important;
+  }
+  .ryt-col {
+    padding-left: 30px !important;
+  }
+  .abt-icons {
+    font-size: 26px !important;
+  }
 }

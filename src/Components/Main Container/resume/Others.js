@@ -4,7 +4,7 @@ import "./resume.css";
 function Others() {
   return (
     <>
-      <div className="pl-5">
+      <div className="skills">
         <p className="pt-4 pb-2 what-i-do">Knowledge</p>
         <div className="others">
           <div className="others-card">Bootstrap</div>

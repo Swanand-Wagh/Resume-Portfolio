@@ -6,12 +6,11 @@ function Myself() {
   return (
     <>
       <p className="title mb-5">
-        Highly innovative and enthusiastic, <span>Web Developer</span> <br /> and
-        <span> Game Developer</span>.
+        Highly innovative and enthusiastic, <span>Web Developer</span> and <span>Game Developer</span>.
       </p>
       <Row>
         <Col md={6} className="pr-0">
-          <p>
+          <p className="intro">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta,
             reprehenderit unde cupiditate quas distinctio modi officia ex, nisi
             cum fugiat perspiciatis illo, consectetur accusamus quos eum? Enim

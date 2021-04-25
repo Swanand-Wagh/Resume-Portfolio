@@ -82,3 +82,28 @@
 .tooltip [class$="arrow"] {
   visibility: hidden;
 }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px) {
+  .main-panel {
+    display: none !important;
+  }
+  .app {
+    padding: 0;
+    margin: 0;
+    display: block;
+    background-color: orange;
+    border-radius: 0px;
+  }
+  .app-body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 50%;
+  }
+  .main-container {
+    padding: 0;
+    margin: 0;
+  }
+}

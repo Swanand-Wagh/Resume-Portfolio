@@ -10,11 +10,11 @@ function Education() {
         <Row>
           <Col md={3} className="pr-0">
             <div className="left-of-line">
-              <p>2019 - 2023</p>
-              <p className="exp-title">Btech IT</p>
+              <p className="date">2019 - 2023</p>
+              <p className="edu-title">Btech IT</p>
             </div>
           </Col>
-          <Col md={1} style={{ paddingLeft: "1.25rem" }} className="pr-0 mx-0">
+          <Col md={1} className="pr-0 mx-0 divider-col">
             <div className="divider"></div>
           </Col>
           <Col md={8} className="px-0">
@@ -29,13 +29,13 @@ function Education() {
           </Col>
           <Col md={3} className="pr-0">
             <div className="left-of-line">
-              <p>2017 - 2019</p>
-              <p className="exp-title">
+              <p className="date">2017 - 2019</p>
+              <p className="edu-title">
                 12<sup>th</sup> Standard
               </p>
             </div>
           </Col>
-          <Col md={1} style={{ paddingLeft: "1.25rem" }} className="pr-0 mx-0">
+          <Col md={1} className="pr-0 mx-0 divider-col">
             <div style={{ height: "8.4rem" }} className="divider"></div>
           </Col>
           <Col md={8} className="px-0">
