@@ -4,7 +4,7 @@
 }
 
 /* ABOUT MYSELF */
-.about .title {
+.myself .title {
   color: #eeeeee;
   font-size: 32px;
   font-weight: 600;
@@ -56,6 +56,9 @@
 /* RESPONSIVE */
 
 @media only screen and (max-width: 1024px) {
+  .myself .title {
+    font-size: 29px;
+  }
   .abt-details ul li {
     margin-bottom: 0.75rem;
   }
@@ -64,7 +67,7 @@
   .about {
     padding: 60px 45px;
   }
-  .title {
+  .myself .title {
     font-size: 26px !important;
   }
   .intro {
@@ -76,7 +79,7 @@
   .abt-details ul li {
     margin-bottom: 0.85rem;
   }
-  .col-md-5 {
+  .myself-col {
     padding-left: 0px !important;
   }
   .what-i-do-title {
@@ -90,5 +93,48 @@
   }
   .abt-icons {
     font-size: 26px !important;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .about {
+    padding: 60px 40px;
+  }
+  .intro {
+    font-size: 16px !important;
+  }
+  .myself-col {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+  }
+  .abt-details ul li {
+    font-size: 16px !important;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .about {
+    padding: 60px 35px;
+  }
+  .intro {
+    font-size: 15.5px !important;
+  }
+  .myself-col {
+    padding-right: 0px !important;
+  }
+  .abt-details ul li {
+    font-size: 15px !important;
+  }
+}
+@media only screen and (max-width: 326px) {
+  .about {
+    padding: 60px 30px;
+  }
+  .myself .title {
+    font-size: 24.55px !important;
+  }
+  .intro {
+    font-size: 15px !important;
+  }
+  .abt-details ul li {
+    font-size: 14.15px !important;
   }
 }
