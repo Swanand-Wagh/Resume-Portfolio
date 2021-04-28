@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "../Components/Main Container/Home";
+import Home from "../Components/Main Container/home/Home";
 import About from "../Components/Main Container/about/About";
 import Resume from "../Components/Main Container/resume/Resume";
 import Portfolio from "../Components/Main Container/Portfolio";
