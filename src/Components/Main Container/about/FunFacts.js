@@ -10,19 +10,19 @@ function FunFacts() {
           Fun <span>FACTS</span>
         </p>
         <Row>
-          <Col>
+          <Col md={4}>
             <div className="fact text-center">
               <i class="fas fa-paper-plane abt-icons"></i>
               <p className="what-i-do-title">Origami Artist</p>
             </div>
           </Col>
-          <Col>
+          <Col md={4}>
             <div className="fact text-center">
               <i class="fas fa-pizza-slice abt-icons"></i>
               <p className="what-i-do-title">Foodie</p>
             </div>
           </Col>
-          <Col>
+          <Col md={4}>
             <div className="fact text-center">
               <i class="fas fa-skating abt-icons"></i>
               <p className="what-i-do-title">Sports Enthusiast</p>
