@@ -29,7 +29,7 @@ function WhatIDo() {
             exercitationem nemo numquam quaerat iste.
           </p>
         </Col>
-        <Col md={6} className="mt-3">
+        <Col md={6} className="what-col">
           <i class="fas fa-laptop-code abt-icons"></i>
           <p className="what-i-do-title">Web Development</p>
           <p className="what-i-do-text">
@@ -39,7 +39,7 @@ function WhatIDo() {
             in magni fugit.
           </p>
         </Col>
-        <Col md={6} className="mt-3 ryt-col">
+        <Col md={6} className="ryt-col what-col">
           <i class="fas fa-hands-helping abt-icons"></i>
           <p className="what-i-do-title">Volunteering</p>
           <p className="what-i-do-text">

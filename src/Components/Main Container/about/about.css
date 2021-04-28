@@ -44,7 +44,9 @@
 .ryt-col {
   padding-left: 40px !important;
 }
-
+.what-col {
+  margin-top: 1.15rem;
+}
 /* FUN FACTS */
 .fact {
   background-color: #333;
@@ -83,7 +85,7 @@
     padding-left: 0px !important;
   }
   .what-i-do-title {
-    font-size: 16.35px !important;
+    font-size: 16.5px !important;
   }
   .what-i-do-text {
     font-size: 15px !important;
@@ -108,6 +110,23 @@
   }
   .abt-details ul li {
     font-size: 16px !important;
+  }
+
+  .ryt-col {
+    padding-left: 1rem !important;
+  }
+  .abt-icons {
+    font-size: 32px !important;
+  }
+  .what-i-do-title {
+    font-size: 17px !important;
+  }
+  .what-i-do-text {
+    font-size: 15.5px !important;
+    margin-bottom: 30px;
+  }
+  .what-col {
+    margin-top: 0 !important;
   }
 }
 @media only screen and (max-width: 376px) {
@@ -136,5 +155,11 @@
   }
   .abt-details ul li {
     font-size: 14.15px !important;
+  }
+  .what-i-do-title {
+    font-size: 16.5px !important;
+  }
+  .what-i-do-text {
+    font-size: 14.85px !important;
   }
 }
