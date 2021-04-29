@@ -38,7 +38,7 @@ function Contact() {
             </div>
           </Col>
           <Col md={1} />
-          <Col md={7}>
+          <Col md={7} className="contact-form">
             <p className="pb-2 what-i-do">
               How Can I <span>Help You?</span>
             </p>

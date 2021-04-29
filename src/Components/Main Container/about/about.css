@@ -67,7 +67,7 @@
 }
 @media only screen and (max-width: 768px) {
   .about {
-    padding: 60px 45px;
+    padding: 60px 35px 60px 45px;
   }
   .myself .title {
     font-size: 26px !important;
@@ -99,7 +99,7 @@
 }
 @media only screen and (max-width: 426px) {
   .about {
-    padding: 60px 40px;
+    padding: 60px 30px 60px 40px;
   }
   .intro {
     font-size: 16px !important;
@@ -134,7 +134,7 @@
 }
 @media only screen and (max-width: 376px) {
   .about {
-    padding: 60px 35px;
+    padding: 60px 30px 60px 35px;
   }
   .intro {
     font-size: 15.5px !important;
@@ -148,7 +148,7 @@
 }
 @media only screen and (max-width: 326px) {
   .about {
-    padding: 60px 30px;
+    padding: 60px 25px 60px 30px;
   }
   .myself .title {
     font-size: 24.55px !important;

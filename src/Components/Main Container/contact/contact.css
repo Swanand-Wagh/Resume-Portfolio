@@ -50,9 +50,14 @@ textarea {
 }
 
 /* RESPONSIVE */
+@media only screen and (max-width: 1024px) {
+  .contact {
+    margin-bottom: 2.25rem;
+  }
+}
 @media only screen and (max-width: 768px) {
   .contact {
-    padding: 60px 45px;
+    padding: 60px 35px 60px 45px;
     margin-bottom: 2rem;
   }
   .contact-title {
@@ -72,5 +77,34 @@ textarea {
   }
   ::-ms-input-placeholder {
     font-size: 14.5px !important;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .contact {
+    padding: 60px 30px 60px 40px;
+    margin-bottom: 0;
+  }
+  .contact-form .what-i-do {
+    margin: 2rem 0 1.5rem;
+  }
+  .inputs {
+    display: block;
+  }
+  .inputs input {
+    width: 100% !important;
+    margin-bottom: 0.85rem;
+  }
+  input[type="email"] {
+    margin: 0 0 0.85rem 0;
+  }
+  ::placeholder {
+    font-size: 14px !important;
+  }
+  :-ms-input-placeholder {
+    font-size: 14px !important;
+  }
+  ::-ms-input-placeholder {
+    font-size: 14px !important;
   }
 }
