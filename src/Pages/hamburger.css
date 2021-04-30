@@ -1,0 +1,37 @@
+.ham {
+  display: none;
+  position: relative;
+  background-color: orange;
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  margin: 0;
+  padding: 10px 15px 0 0;
+  border-radius: 50%;
+  left: 25rem;
+  top: 2rem;
+}
+.MuiButton-label {
+  position: relative;
+  left: -12px;
+  top: -5.5px;
+}
+.BARS {
+  font-size: 20px;
+  color: rgb(220, 220, 220) !important;
+}
+#ham-menu {
+  display: none;
+  background-color: #222 !important;
+  height: 100%;
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 426px) {
+  .ham {
+    display: block;
+    position: sticky;
+    z-index: 1;
+  }
+  #ham-menu {
+    display: block;
+  }
+}
