@@ -17,16 +17,14 @@ function Resume() {
         <Row>
           <Col md={7}>
             <Education />
-          </Col>
-          <Col md={5}>
-            <Skills />
-          </Col>
-          <Col md={7}>
             <Experience />
           </Col>
           <Col md={5}>
+            <Skills />
             <Others />
           </Col>
+          {/* <Col md={7}></Col>
+          <Col md={5}></Col> */}
         </Row>
         <Certificate />
       </div>

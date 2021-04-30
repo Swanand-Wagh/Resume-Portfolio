@@ -12,6 +12,9 @@
   border-left: 0.5px solid orange;
   height: 9.75rem;
 }
+.bottom-divider {
+  height: 8.35rem !important;
+}
 .divider-col {
   padding-left: 1.25rem !important;
 }
@@ -107,6 +110,7 @@
   font-size: 13px;
   color: gray;
 }
+
 /* RESPONSIVE */
 @media only screen and (max-width: 1024px) {
   .others-card {
@@ -115,7 +119,7 @@
 }
 @media only screen and (max-width: 768px) {
   .resume {
-    padding: 60px 45px;
+    padding: 60px 35px 60px 45px;
   }
   .date {
     font-size: 15px !important;
@@ -127,9 +131,13 @@
     height: 10px;
     width: 10px;
     left: -5.5px;
+    bottom: 1.5px;
   }
   .divider-col {
     padding-left: 1rem !important;
+  }
+  .bottom-divider {
+    height: 8.65rem !important;
   }
   .skills {
     padding-left: 30px;
@@ -148,5 +156,78 @@
   }
   .issue-date {
     font-size: 14.75px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .resume {
+    padding: 60px 30px 60px 40px;
+  }
+  .skills {
+    padding-left: 0;
+  }
+  .resume .what-i-do-title {
+    font-size: 16px !important;
+  }
+  .resume .date {
+    font-size: 14px !important;
+  }
+  .certificate-card {
+    width: 100% !important;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .resume {
+    padding: 60px 30px 60px 35px;
+  }
+  .resume .date {
+    font-size: 13.65px !important;
+  }
+  .resume .exp-title,
+  .resume .edu-title {
+    font-size: 12.5px !important;
+  }
+  .divider-col {
+    padding-left: 0.8rem !important;
+  }
+  .divider {
+    height: 10.775rem;
+  }
+  .bottom-divider {
+    height: 9.75rem !important;
+  }
+  .exp-text,
+  .edu-text {
+    font-size: 13.5px !important;
+  }
+}
+@media only screen and (max-width: 326px) {
+  .resume {
+    padding: 60px 25px 60px 30px;
+  }
+  .left-of-line {
+    align-items: flex-start;
+  }
+  .divider {
+    height: 11.75rem;
+  }
+  .bottom-divider {
+    height: 11rem !important;
+  }
+  .education .divider-col {
+    padding-left: 0.37rem !important;
+  }
+  .experience .divider-col {
+    padding-left: 0.55rem !important;
+  }
+  .left-of-line-col {
+    padding-left: 0 !important;
+  }
+  .divider::before {
+    height: 9px;
+    width: 9px;
+    left: -5.5px;
+    bottom: 1.5px;
   }
 }

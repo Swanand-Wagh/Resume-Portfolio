@@ -8,37 +8,33 @@ function Education() {
       <div className="education">
         <p className="pt-4 pb-2 what-i-do">Education</p>
         <Row>
-          <Col md={3} className="pr-0">
+          <Col xs={3} className="pr-0 left-of-line-col">
             <div className="left-of-line">
-              <p className="date">2019 - 2023</p>
+              <p className="date">July 2019</p>
               <p className="edu-title">Btech IT</p>
             </div>
           </Col>
-          <Col md={1} className="pr-0 mx-0 divider-col">
+          <Col xs={1} className="pr-0 mx-0 divider-col">
             <div className="divider"></div>
           </Col>
-          <Col md={8} className="px-0">
-            <p className="what-i-do-title mb-2">
-              Symbiosis Institute of Technology
-            </p>
+          <Col xs={8} className="px-0">
+            <p className="what-i-do-title mb-2">Symbiosis University</p>
             <p className="exp-text">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis
               aut asperiores tempore vero laudantium, consequatur magni laborum
               ullam. Enim, accusantium.
             </p>
           </Col>
-          <Col md={3} className="pr-0">
+          <Col xs={3} className="pr-0 left-of-line-col">
             <div className="left-of-line">
-              <p className="date">2017 - 2019</p>
-              <p className="edu-title">
-                12<sup>th</sup> Standard
-              </p>
+              <p className="date">Aug 2017</p>
+              <p className="edu-title">HSC</p>
             </div>
           </Col>
-          <Col md={1} className="pr-0 mx-0 divider-col">
-            <div style={{ height: "8.4rem" }} className="divider"></div>
+          <Col xs={1} className="pr-0 mx-0 divider-col">
+            <div className="divider bottom-divider"></div>
           </Col>
-          <Col md={8} className="px-0">
+          <Col xs={8} className="px-0">
             <p className="what-i-do-title mb-2">Dr. Kalmadi Jr College</p>
             <p className="exp-text">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis
