@@ -41,7 +41,7 @@ export default function Hamburger() {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      <div className="">
+      <div className="menu-drawer">
         <div className="img-border">
           <Image
             className="dp"
@@ -52,22 +52,20 @@ export default function Hamburger() {
         <div>
           <p
             style={{
+              color: "black",
               textAlign: "center",
               fontSize: "36px",
               letterSpacing: "1.15px",
-              fontWeight: "700",
-              marginBottom: "0",
+              fontWeight: "900",
+              margin: "10px 0 0 0",
             }}
           >
             Alias
           </p>
-          {/* <p
-            style={{ margin: "0px 0px 5px 0px", fontSize: "18px" }}
-            className="text-center"
+          <div
+            style={{ margin: "9px 0px" }}
+            className="text-center drawer-links"
           >
-            Web Designer
-          </p> */}
-          <div style={{ margin: "9px 0px" }} className="text-center ml-4">
             <a
               target="_blank"
               rel="noreferrer"
@@ -87,18 +85,40 @@ export default function Hamburger() {
               rel="noreferrer"
               href="https://www.instagram.com/swanandaaaa/"
             >
-              <i class="fab fa-instagram profile-links"></i>
+              <i class="fab fa-instagram-square profile-links"></i>
             </a>
           </div>
         </div>
+        <div className="ml-3 drawer-items">
+          <ul className="mt-3 mb-4">
+            <li>
+              <a href="#HOME">Home</a>
+            </li>
+            <li>
+              <a href="#ABOUT">About</a>
+            </li>
+            <li>
+              <a href="#RESUME">Resume</a>
+            </li>
+            <li>
+              <a href="#PORTFOLIO">Portfolio</a>
+            </li>
+            <li>
+              <a href="#CONTACT">Contact</a>
+            </li>
+          </ul>
+        </div>
         <a
-          className="download-btn"
+          className="download-btn drawer-btn"
           href={My_Profile}
           download="Swanand_resume.pdf"
         >
           Download CV
         </a>
-        <p className="made-by text-center">
+        <p
+          style={{ color: "black", fontWeight: "900" }}
+          className="made-by text-center"
+        >
           Designed by Alias
           <br />
           <i class="far fa-copyright"></i> 2021 All rights reserved

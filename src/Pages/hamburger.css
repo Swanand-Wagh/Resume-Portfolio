@@ -21,9 +21,41 @@
 }
 #ham-menu {
   display: none;
-  background-color: #222 !important;
+  background-color: orange !important;
   height: 100%;
 }
+.menu-drawer {
+  display: grid;
+  place-items: center;
+}
+
+.menu-drawer .img-border {
+  margin-top: 2rem !important;
+  background-color: #fff;
+}
+.drawer-items ul li {
+  list-style-type: none !important;
+  font-size: 17px;
+  margin-top: 0.85rem;
+}
+.drawer-items ul li a {
+  text-decoration: none !important;
+  color: black;
+  font-weight: 900;
+}
+.drawer-items ul li a:hover {
+  color: white;
+}
+.drawer-links {
+  margin-left: 2rem !important;
+}
+.drawer-links a {
+  margin-right: 0.85rem;
+}
+.drawer-links .profile-links {
+  color: black !important;
+}
+
 /* RESPONSIVE */
 @media only screen and (max-width: 426px) {
   .ham {

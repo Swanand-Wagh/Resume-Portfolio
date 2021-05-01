@@ -72,3 +72,16 @@
     display: none;
   }
 }
+@media only screen and (max-width: 426px) {
+  .download-btn {
+    margin-top: 0.75rem;
+  }
+  .made-by {
+    top: 27px;
+  }
+  .download-btn:hover {
+    background-color: #444;
+    color: white !important;
+    font-weight: 600 !important;
+  }
+}
