@@ -7,7 +7,7 @@ function Home() {
       <div id="HOME" className="home">
         <div className="heading">
           <p className="name">Swanand Wagh</p>
-          <p className="sub-heading">React Developer & Game Developer</p>
+          <p className="sub-heading">React Developer and Game Developer</p>
         </div>
       </div>
     </>

@@ -7,18 +7,22 @@ function Myself() {
     <>
       <div className="myself">
         <p className="title mb-5">
-          Highly innovative and enthusiastic, <span>Web Developer</span> and{" "}
+          Highly innovative and enthusiastic, <span>Web Developer</span> and
           <span>Game Developer</span>.
         </p>
         <Row>
           <Col md={6} className="pr-0">
             <p className="intro">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta,
-              reprehenderit unde cupiditate quas distinctio modi officia ex,
-              nisi cum fugiat perspiciatis illo, consectetur accusamus quos eum?
-              Enim culpa unde tenetur facere possimus perferendis suscipit,
-              quisquam dolorum doloremque, vel nostrum quas eos eum! Rem
-              inventore magnam nemo quis. Lorem ipsum dolor sit amet.
+              My name is{" "}
+              <span style={{ fontStyle: "oblique", fontWeight: "900" }}>
+                Swanand
+              </span>
+              , and I enjoy meeting new people and finding ways to help them &
+              have an uplifting experience. I seek new challenges and try to
+              think out-of-the-box while looking for creative solutions to a
+              given problem. I am a quick learner and believe in learning from
+              my mistakes for I strongly feel that this virtue will take me
+              ahead in life and career...
             </p>
           </Col>
           <Col md={1} className="px-0" />
